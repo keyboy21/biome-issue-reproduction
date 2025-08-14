@@ -1,31 +1,4 @@
 import Image from "next/image";
-import { Inter } from "next/font/google";
-import { GeistSans, GeistMono } from "next/font/google";
-import { fstat } from "node:fs";
-import { Metadata } from "next";
-import { familyName } from "next/font";
-import { createFont } from "next/font";
-import { createFontFamily } from "next/font";
-import { createFontFace } from "next/font"; 
-import { createFontStyle } from "next/font";
-import { createFontWeight } from "next/font";
-import { createFontSize } from "next/font";
-import { readFile } from "node:fs";
-import { readFileSync } from "node:fs";
-import { writeFile } from "node:fs";
-import { writeFileSync } from "node:fs";
-import { unlink } from "node:fs";
-import { unlinkSync } from "node:fs";
-import { readdir } from "node:fs";
-import { readdirSync } from "node:fs";
-import { stat } from "node:fs";
-import { statSync } from "node:fs";
-import { mkdir } from "node:fs";
-import { mkdirSync } from "node:fs";
-import { rmdir } from "node:fs";
-import { rmdirSync } from "node:fs";
-
-
 
 export default function Home() {
   return (
